@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="settings">
+  <div class="player" id="player1">
+    <h4>Spiller 1</h4>
+      <input type="textfield" class="name">
+      <div class="image_dropzone">
+            <input class="img_upload" type="file" name="files[]">
+            <p class="dragDrop">Drag and drop billede</p>
+            <span class="remove-img">&#10005;</span>
+      </div>
+  </div>
+  <div class="player" id="player2">
+    <h4>Spiller 2</h4>
+      <input type="textfield" class="name">
+      <div class="image_dropzone">
+            <input class="img_upload" type="file" name="files[]">
+            <p class="dragDrop">Drag and drop billede</p>
+            <span class="remove-img">&#10005;</span>
+      </div>
+  </div>
+</div>
+<div class="boxes">
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="box">
+    <span class="x">X</span>
+    <span class="o">O</span>
+  </div>
+  <div class="red-line top-horiz"></div>
+  <div class="red-line mid-horiz"></div>
+  <div class="red-line bottom-horiz"></div>
+  <div class="red-line left-vert"></div>
+  <div class="red-line mid-vert"></div>
+  <div class="red-line right-vert"></div>
+  <div class="red-line ltr-diag"></div>
+  <div class="red-line rtl-diag"></div>
+
+  <div class="x-wins js-wins">X Wins!<span>Play Again?</span></div>
+  <div class="o-wins js-wins">O Wins!<span>Play Again?</span></div>
+</div>
+<button class="reset">Reset</button>
+<script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
