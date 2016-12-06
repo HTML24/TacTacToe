@@ -3,7 +3,7 @@
   height: 450px;
   overflow: hidden;
   position: absolute;
-  top: 0;
+  top: 300px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -147,9 +147,8 @@
   font-size: 24px;
   font-weight: 100;
   position: absolute;
-  right: 0;
+  left: 20px;
   top: 90%;
-  left: 0;
   margin: 0 auto;
 }
 
